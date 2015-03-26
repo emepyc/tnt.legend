@@ -1,0 +1,13 @@
+.tick text {
+  font-size: 10px; }
+
+.tnt_name {
+  font-size: 14px; }
+
+.tnt_framed {
+  border: 2px solid;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px; }
+
+/*# sourceMappingURL=legend.css.map */

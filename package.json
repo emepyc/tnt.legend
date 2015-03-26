@@ -1,0 +1,50 @@
+{
+  "name": "tnt.legend",
+  "version": "0.0.0",
+  "description": "Legend library for TnT based on tnt.board",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "gulp test",
+    "prepublish": "gulp test && gulp build-browser"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/emepyc/tnt.legend"
+  },
+  "keywords": [
+    "tnt",
+    "legend",
+    "javascript"
+  ],
+  "author": "Miguel Pignatelli",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/emepyc/tnt.legend/issues"
+  },
+  "homepage": "https://github.com/emepyc/tnt.legend",
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "mkdirp": "^0.5.0",
+    "mocha": "~1.20.1",
+    "uglify-js": "~2.4.15",
+    "watchify": "^1.0.2",
+    "gulp": "^3.8.8",
+    "browserify": "~4.2.0",
+    "gulp-browserify": "^0.5.0",
+    "gulp-gzip": "0.0.8",
+    "gulp-rename": "^1.2.0",
+    "gulp-rimraf": "^0.1.0",
+    "gulp-jshint": "^1.8.4",
+    "gulp-mocha": "^1.0.0",
+    "gulp-uglify": "^1.0.1",
+    "gulp-watch": "^1.0.2"
+  },
+  "dependencies": {
+    "tnt.api": "^0.0.0",
+    "tnt.board": "0.0.0",
+    "tnt.utils": "0.0.0"
+  }
+}

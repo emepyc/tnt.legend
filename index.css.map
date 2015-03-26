@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,UAAW;ECWP,SAAS,EATE,IAAI;;ADEnB,SAAU;ECeN,SAAS,EAfE,IAAI;;ADInB,WAAY;EACR,MAAM,EAAG,SAAS;EC8Bd,aAAa,ED7BO,IAAI;EC8B/B,qBAAqB,ED9BM,IAAI;EC+B/B,kBAAkB,ED/BS,IAAI",
+"sources": ["src/scss/legend.scss","src/scss/_main.scss"],
+"names": [],
+"file": "index.css"
+}

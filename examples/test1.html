@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<head>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  <script src="../build/tnt.legend.js"></script>
+  <!-- <script src="test1.js"></script> -->
+</head>
+
+<body>
+  <div id="mydiv"></div>
+  <script>
+    var legend = tnt.legend(document.getElementById("mydiv"))
+    //.row_height(20)
+    .fontsize(11);
+    legend
+    .add_column().width(250)
+    .add_row(legend.header().fontsize(15).text("Internal Nodes"))
+    .add_row(legend.circle().color("blue").text("Speciation Node"))
+    .add_row(legend.gradient().color1("yellow").color2("green").text("Gradient"));
+    legend();
+  </script>
+</body>
